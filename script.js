@@ -32,8 +32,8 @@ var numberArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 function generatePassword(){
     var password = [];
     for(var i = 0; i < characterLength; i++) {
-        var randomnIndex = Math.floor(Math.random() * choiceArray.lenght);
-        passwrord = password + choiceArray[randomnIndex];
+        var randomnIndex = Math.floor(Math.random() * choiceArray.length);
+        password = password + choiceArray[randomnIndex];
     }
     return password;
 }
