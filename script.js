@@ -26,5 +26,30 @@ function generatePassword(){
 
 }
 
+// function to promt asking for character length and check for character Length
+
+function getPrompts(){
+    characterLength = parseInt(prompt("How may characters in your password? (8 - 128"));
+    if(isNaN(characterLength) || characterLength < 8 || characterLength >128 ){
+        alert("Character lenght undefined! Choose between 8 - 128 digits. Please Try Again!");
+        return false;
+    }
+
+    // prompts for checking character requirements
+
+    if (confirm(" Would you prefer lowercase letters in your password?")){
+        choiceArray = choiceArray.concat(lowercaseArray);
+    }
+    if (confirm(" Would you prefer uppercase letters in your password?")){
+        choiceArray = choiceArray.concat(uppercaseArray);
+    }
+    if (confirm(" Would you prefer special characters in your password?")){
+        choiceArray = choiceArray.concat(specialCharacterArray);
+    }
+    if (confirm(" Would you prefer numbers in your password?")){
+        choiceArray = choiceArray.concat(numberArray);
+    }
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
