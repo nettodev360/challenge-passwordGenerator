@@ -1,47 +1,21 @@
-# challenge-passwordGenerator
+# User Story
 
-## User Story
+The purpose of this app is to help with generating strong passwords while taking into account user/client criteria
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+# Description
 
-## Acceptance Criteria
+The Password Generator uses html, css and javascript to enable a user to generate a password between 8 - 128 characters while taking into account user/client criteria for character types. It returns a strong password which can be copied to clipboard and used accross any platform. The app is web based and functions on multiple browsers enabling a wider user base. It does not store content or data to ensure no history of passwords used it recorded. Remembering the password used or saving the password copied to the clipboard is at user discretion.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+## Installation
 
-## Mock-Up
+NA
 
-The following image shows the web application's appearance and functionality:
+## Links
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+deployed url: https://nettodev360.github.io/MikesWeatherApp/
 
-## Grading Requirements
+Git hub: https://github.com/nettodev360/MikesWeatherApp
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+# Image
+
+<img src="./images/Password Generator.png" alt="screenshot">
